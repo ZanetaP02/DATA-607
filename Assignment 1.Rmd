@@ -1,0 +1,53 @@
+---
+title: "test"
+author: "Zaneta Paulusova"
+date: "2024-09-07"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+```
+
+Introdaction:
+
+The article discusses the social contract of Halloween and an experiment that pits different fun-sized candy types against each other to determine people's preferences. It highlights the factors that contribute to a candy's desirability, such as ingredients and the impact of chocolate, nuts, crispiness, nougat, and caramel on a candy's win percentage. 
+
+https://fivethirtyeight.com/videos/the-ultimate-halloween-candy-power-ranking/
+
+```{r}
+candy_data <- read.csv("https://raw.githubusercontent.com/tonyCUNY/tonyCUNY/main/candy-data.csv")
+as.data.frame(candy_data)
+```
+
+```{r}
+glimpse(candy_data)
+```
+
+
+```{r}
+  ggplot(data = candy_data, aes(x = competitorname, y = winpercent)) + geom_point()
+```
+
+```{r}
+  ggplot(data = candy_data, aes(x = competitorname, y = sugarpercent)) + geom_point()
+```
+
+```{r}
+  ggplot(data = candy_data, aes(x = competitorname, y = pricepercent)) + geom_point()
+```
+```{r}
+ggplot(data = candy_data, aes(x = sugarpercent, y = pricepercent)) + geom_line() 
+```
+```{r}
+ggplot(data = candy_data, aes(x = winpercent, y = pricepercent)) + geom_line() 
+```
+```{r}
+desc_candy <- candy_data %>%  arrange(desc(winpercent))
+desc_candy
+```
+
+Conclusion
+
+From the data table, it's pretty obvious that Reese's Peanut Butter Cup is the top-ranked candy as it has 84.18% Winprecent. I tried to make a bar graph or a line graph, but all I could come up with was a scatter plot as there are too many candies that are being compared.  In the graphs, it is difficult to find out which point is for which candy so there is no clear picture because it's hard to tell the different types of candy apart. I was really hoping to find a link between the winning candy and things like sugar content or price, but it looks like there's no strong connection there when looking at the table.  I thought about making graphs for the Top 20 Winpercent Candies, but I'm not exactly sure about the code for that.

@@ -17,10 +17,10 @@ ID,Name,Gender,Movies,Genres,Rating
 4,Kevin,M,Deadpool & Wolverine,Actionn/Comedy,5
 5,Angelica,F,Deadpool & Wolverine,Actionn/Comedy,3
 6,Henry,M,Deadpool & Wolverine,Actionn/Comedy,5
-1,Klaudia,F,Despicable Me 4,Family/Comedy,0
+1,Klaudia,F,Despicable Me 4,Family/Comedy,
 2,Sylwia,F,Despicable Me 4,Family/Comedy,4
 3,Flip,M,Despicable Me 4,Family/Comedy,4
-4,Kevin,M,Despicable Me 4,Family/Comedy,0
+4,Kevin,M,Despicable Me 4,Family/Comedy,
 5,Angelica,F,Despicable Me 4,Family/Comedy,4
 6,Henry,M,Despicable Me 4,Family/Comedy,3
 1,Klaudia,F,Fall Guy,Actionn/Comedy,4
@@ -29,9 +29,9 @@ ID,Name,Gender,Movies,Genres,Rating
 4,Kevin,M,Fall Guy,Actionn/Comedy,4
 5,Angelica,F,Fall Guy,Actionn/Comedy,5
 6,Henry,M,Fall Guy,Actionn/Comedy,4
-1,Klaudia,F,Inside Out 2,Family/Comedy,0
+1,Klaudia,F,Inside Out 2,Family/Comedy,
 2,Sylwia,F,Inside Out 2,Family/Comedy,5
 3,Flip,M,Inside Out 2,Family/Comedy,3
-4,Kevin,M,Inside Out 2,Family/Comedy,0
+4,Kevin,M,Inside Out 2,Family/Comedy,
 5,Angelica,F,Inside Out 2,Family/Comedy,4
 6,Henry,M,Inside Out 2,Family/Comedy,4

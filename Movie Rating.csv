@@ -1,6 +1,6 @@
 ID,﻿Name,Sex and Web,Age,Movies,Scale 1-5,Genrals,% Rating
 1,Klaudia,F,25,Abigail,2,Horror,40%
-2,Sylwia,F,38,Abigail,3,Horror,60%
+2,Sylwia,F,38,Abigail,,Horror,
 3,Flip,M,39,Abigail,4,Horror,80%
 4,Kevin,M,30,Abigail,5,Horror,100%
 5,Angelica,F,45,Abigail,,Horror,0%
@@ -20,7 +20,7 @@ ID,﻿Name,Sex and Web,Age,Movies,Scale 1-5,Genrals,% Rating
 1, Klaudia,F,25,Despicable Me 4,4,Family/Comedy,80%
 2,Sylwia,F,38,Despicable Me 4,5,Family/Comedy,100%
 3,Flip,M,39,Despicable Me 4,5,Family/Comedy,100%
-4,Kevin,M,30,Despicable Me 4,,Family/Comedy,80%
+4,Kevin,M,30,Despicable Me 4,,Family/Comedy,0%
 5,Angelica,F,45,Despicable Me 4,4,Family/Comedy,80%
 6,Rotten Tomatoes,W,,Despicable Me 4,2.8,Family/Comedy,56%
 1,Klaudia,F,25,Fall Guy,4,Actionn/Comedy,80%

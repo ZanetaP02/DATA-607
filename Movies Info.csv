@@ -1,37 +1,37 @@
-ID,Name,Gender,Movies,Rating,Genres,Kids
-1,Klaudia,F,Lisa Frankenstein,4,Horror/Comedy,N
-2,Sylwia,F,Lisa Frankenstein,4,Horror/Comedy,Y
-3,Flip,M,Lisa Frankenstein,2,Horror/Comedy,Y
-4,Kevin,M,Lisa Frankenstein,3,Horror/Comedy,N
-5,Angelica,F,Lisa Frankenstein,4,Horror/Comedy,Y
-6,Henry,M,Lisa Frankenstein,3,Horror/Comedy,Y
-1,Klaudia,F,Beetlejuice 2,5,Horror/Comedy,N
-2,Sylwia,F,Beetlejuice 2,5,Horror/Comedy,Y
-3,Flip,M,Beetlejuice 2,4,Horror/Comedy,Y
-4,Kevin,M,Beetlejuice 2,4,Horror/Comedy,N
-5,Angelica,F,Beetlejuice 2,4,Horror/Comedy,Y
-6,Henry,M,Beetlejuice 2,3,Horror/Comedy,Y
-1,Klaudia,F,Deadpool & Wolverine,3,Actionn/Comedy,N
-2,Sylwia,F,Deadpool & Wolverine,4,Actionn/Comedy,Y
-3,Flip,M,Deadpool & Wolverine,5,Actionn/Comedy,Y
-4,Kevin,M,Deadpool & Wolverine,5,Actionn/Comedy,N
-5,Angelica,F,Deadpool & Wolverine,3,Actionn/Comedy,Y
-6,Henry,M,Deadpool & Wolverine,5,Actionn/Comedy,Y
-1,Klaudia,F,Despicable Me 4,0,Family/Comedy,N
-2,Sylwia,F,Despicable Me 4,4,Family/Comedy,Y
-3,Flip,M,Despicable Me 4,4,Family/Comedy,Y
-4,Kevin,M,Despicable Me 4,0,Family/Comedy,N
-5,Angelica,F,Despicable Me 4,4,Family/Comedy,Y
-6,Henry,M,Despicable Me 4,3,Family/Comedy,Y
-1,Klaudia,F,Fall Guy,4,Actionn/Comedy,N
-2,Sylwia,F,Fall Guy,5,Actionn/Comedy,Y
-3,Flip,M,Fall Guy,4,Actionn/Comedy,Y
-4,Kevin,M,Fall Guy,4,Actionn/Comedy,N
-5,Angelica,F,Fall Guy,5,Actionn/Comedy,Y
-6,Henry,M,Fall Guy,4,Actionn/Comedy,Y
-1,Klaudia,F,Inside Out 2,0,Family/Comedy,N
-2,Sylwia,F,Inside Out 2,5,Family/Comedy,Y
-3,Flip,M,Inside Out 2,3,Family/Comedy,Y
-4,Kevin,M,Inside Out 2,0,Family/Comedy,N
-5,Angelica,F,Inside Out 2,4,Family/Comedy,Y
-6,Henry,M,Inside Out 2,4,Family/Comedy,Y
+ID,Name,Gender,Kids,Movies,Genres,Rating
+1,Klaudia,F,N,Lisa Frankenstein,Horror/Comedy,4
+2,Sylwia,F,Y,Lisa Frankenstein,Horror/Comedy,4
+3,Flip,M,Y,Lisa Frankenstein,Horror/Comedy,2
+4,Kevin,M,N,Lisa Frankenstein,Horror/Comedy,3
+5,Angelica,F,Y,Lisa Frankenstein,Horror/Comedy,4
+6,Henry,M,Y,Lisa Frankenstein,Horror/Comedy,3
+1,Klaudia,F,N,Beetlejuice 2,Horror/Comedy,5
+2,Sylwia,F,Y,Beetlejuice 2,Horror/Comedy,5
+3,Flip,M,Y,Beetlejuice 2,Horror/Comedy,4
+4,Kevin,M,N,Beetlejuice 2,Horror/Comedy,4
+5,Angelica,F,Y,Beetlejuice 2,Horror/Comedy,4
+6,Henry,M,Y,Beetlejuice 2,Horror/Comedy,3
+1,Klaudia,F,N,Deadpool & Wolverine,Actionn/Comedy,3
+2,Sylwia,F,Y,Deadpool & Wolverine,Actionn/Comedy,4
+3,Flip,M,Y,Deadpool & Wolverine,Actionn/Comedy,5
+4,Kevin,M,N,Deadpool & Wolverine,Actionn/Comedy,5
+5,Angelica,F,Y,Deadpool & Wolverine,Actionn/Comedy,3
+6,Henry,M,Y,Deadpool & Wolverine,Actionn/Comedy,5
+1,Klaudia,F,N,Despicable Me 4,Family/Comedy,0
+2,Sylwia,F,Y,Despicable Me 4,Family/Comedy,4
+3,Flip,M,Y,Despicable Me 4,Family/Comedy,4
+4,Kevin,M,N,Despicable Me 4,Family/Comedy,0
+5,Angelica,F,Y,Despicable Me 4,Family/Comedy,4
+6,Henry,M,Y,Despicable Me 4,Family/Comedy,3
+1,Klaudia,F,N,Fall Guy,Actionn/Comedy,4
+2,Sylwia,F,Y,Fall Guy,Actionn/Comedy,5
+3,Flip,M,Y,Fall Guy,Actionn/Comedy,4
+4,Kevin,M,N,Fall Guy,Actionn/Comedy,4
+5,Angelica,F,Y,Fall Guy,Actionn/Comedy,5
+6,Henry,M,Y,Fall Guy,Actionn/Comedy,4
+1,Klaudia,F,N,Inside Out 2,Family/Comedy,0
+2,Sylwia,F,Y,Inside Out 2,Family/Comedy,5
+3,Flip,M,Y,Inside Out 2,Family/Comedy,3
+4,Kevin,M,N,Inside Out 2,Family/Comedy,0
+5,Angelica,F,Y,Inside Out 2,Family/Comedy,4
+6,Henry,M,Y,Inside Out 2,Family/Comedy,4

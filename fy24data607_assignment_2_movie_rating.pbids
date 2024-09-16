@@ -1,0 +1,1 @@
+{"version":"1.0","connections":[{"details":{"protocol":"mysql","address":{"server":"fy24data607.mysql.database.azure.com","database":"assignment_2_movie_rating"}},"options":{"ReturnSingleDatabase":true}}]}

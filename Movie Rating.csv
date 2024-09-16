@@ -16,11 +16,11 @@ ID,﻿Name,Sex and Web,Age,Movies,Scale 1-5,Genrals,% Rating
 3,Flip,M,39,Deadpool & Wolverine,5,Actionn/Comedy,100%
 4,Kevin,M,30,Deadpool & Wolverine,5,Actionn/Comedy,100%
 5,Angelica,F,45,Deadpool & Wolverine,3,Actionn/Comedy,60%
-6,Rotten Tomatoes,W,,Deadpool & Wolverine,,Actionn/Comedy,79%
+6,Rotten Tomatoes,W,,Deadpool & Wolverine,3.95,Actionn/Comedy,79%
 1, Klaudia,F,25,Despicable Me 4,4,Family/Comedy,80%
 2,Sylwia,F,38,Despicable Me 4,5,Family/Comedy,100%
 3,Flip,M,39,Despicable Me 4,5,Family/Comedy,100%
-4,Kevin,M,30,Despicable Me 4,4,Family/Comedy,80%
+4,Kevin,M,30,Despicable Me 4,,Family/Comedy,80%
 5,Angelica,F,45,Despicable Me 4,4,Family/Comedy,80%
 6,Rotten Tomatoes,W,,Despicable Me 4,2.8,Family/Comedy,56%
 1,Klaudia,F,25,Fall Guy,4,Actionn/Comedy,80%

@@ -1,37 +1,37 @@
-ID,﻿Name,Sex and Web,Age,Movies,Scale 1-5,Genrals,%,
-1,Klaudia,F,25,Abigail,2,Horror,40%,
-2,Sylwia,F,38,Abigail,3,Horror,60%,
-3,Flip,M,39,Abigail,4,Horror,80%,
-4,Kevin,M,30,Abigail,5,Horror,100%,
-5,Angelica,F,45,Abigail,,Horror,0%,
-6,Rotten Tomatoes,W,,Abigail,4.15,Horror,83%,
-1,Klaudia,F,25,Beetlejuice 2,5,Horror/Comedy,100%,
-2,Sylwia,F,38,Beetlejuice 2,3,Horror/Comedy,60%,
-3,Flip,M,39,Beetlejuice 2,4,Horror/Comedy,80%,
-4,Kevin,M,30,Beetlejuice 2,4,Horror/Comedy,80%,
-5,Angelica,F,45,Beetlejuice 2,4,Horror/Comedy,80%,
-6,Rotten Tomatoes,W,,Beetlejuice 2,3.85,Horror/Comedy,77%,
-1,Klaudia,F,25,Deadpool & Wolverine,3,Actionn/Comedy,60%,
-2,Sylwia,F,38,Deadpool & Wolverine,4,Actionn/Comedy,80%,
-3,Flip,M,39,Deadpool & Wolverine,5,Actionn/Comedy,100%,
-4,Kevin,M,30,Deadpool & Wolverine,5,Actionn/Comedy,100%,
-5,Angelica,F,45,Deadpool & Wolverine,3,Actionn/Comedy,60%,
-6,Rotten Tomatoes,W,,Deadpool & Wolverine,,Actionn/Comedy,79%,
-1, Klaudia,F,25,Despicable Me 4,4,Family/Comedy,80%,
-2,Sylwia,F,38,Despicable Me 4,5,Family/Comedy,100%,
-3,Flip,M,39,Despicable Me 4,5,Family/Comedy,100%,
-4,Kevin,M,30,Despicable Me 4,4,Family/Comedy,80%,
-5,Angelica,F,45,Despicable Me 4,4,Family/Comedy,80%,
-6,Rotten Tomatoes,W,,Despicable Me 4,2.8,Family/Comedy,56%,
-1,Klaudia,F,25,Fall Guy,4,Actionn/Comedy,80%,
-2,Sylwia,F,38,Fall Guy,3,Actionn/Comedy,60%,
-3,Flip,M,39,Fall Guy,5,Actionn/Comedy,100%,
-4,Kevin,M,30,Fall Guy,5,Actionn/Comedy,100%,
-5,Angelica,F,45,Fall Guy,4,Actionn/Comedy,80%,
-6,Rotten Tomatoes,W,,Fall Guy,4.1,Actionn/Comedy,82%,
-1,Klaudia,F,25,Inside Out 2,4,Family/Comedy,80%,
-2,Sylwia,F,38,Inside Out 2,5,Family/Comedy,100%,
-3,Flip,M,39,Inside Out 2,2,Family/Comedy,40%,
-4,Kevin,M,30,Inside Out 2,,Family/Comedy,0%,
-5,Angelica,F,45,Inside Out 2,4,Family/Comedy,80%,
-6,Rotten Tomatoes,W,,Inside Out 2,4.55,Family/Comedy,91%,
+ID,﻿Name,Sex and Web,Age,Movies,Scale 1-5,Genrals,% Rating
+1,Klaudia,F,25,Abigail,2,Horror,40%
+2,Sylwia,F,38,Abigail,3,Horror,60%
+3,Flip,M,39,Abigail,4,Horror,80%
+4,Kevin,M,30,Abigail,5,Horror,100%
+5,Angelica,F,45,Abigail,,Horror,0%
+6,Rotten Tomatoes,W,,Abigail,4.15,Horror,83%
+1,Klaudia,F,25,Beetlejuice 2,5,Horror/Comedy,100%
+2,Sylwia,F,38,Beetlejuice 2,3,Horror/Comedy,60%
+3,Flip,M,39,Beetlejuice 2,4,Horror/Comedy,80%
+4,Kevin,M,30,Beetlejuice 2,4,Horror/Comedy,80%
+5,Angelica,F,45,Beetlejuice 2,4,Horror/Comedy,80%
+6,Rotten Tomatoes,W,,Beetlejuice 2,3.85,Horror/Comedy,77%
+1,Klaudia,F,25,Deadpool & Wolverine,3,Actionn/Comedy,60%
+2,Sylwia,F,38,Deadpool & Wolverine,4,Actionn/Comedy,80%
+3,Flip,M,39,Deadpool & Wolverine,5,Actionn/Comedy,100%
+4,Kevin,M,30,Deadpool & Wolverine,5,Actionn/Comedy,100%
+5,Angelica,F,45,Deadpool & Wolverine,3,Actionn/Comedy,60%
+6,Rotten Tomatoes,W,,Deadpool & Wolverine,,Actionn/Comedy,79%
+1, Klaudia,F,25,Despicable Me 4,4,Family/Comedy,80%
+2,Sylwia,F,38,Despicable Me 4,5,Family/Comedy,100%
+3,Flip,M,39,Despicable Me 4,5,Family/Comedy,100%
+4,Kevin,M,30,Despicable Me 4,4,Family/Comedy,80%
+5,Angelica,F,45,Despicable Me 4,4,Family/Comedy,80%
+6,Rotten Tomatoes,W,,Despicable Me 4,2.8,Family/Comedy,56%
+1,Klaudia,F,25,Fall Guy,4,Actionn/Comedy,80%
+2,Sylwia,F,38,Fall Guy,3,Actionn/Comedy,60%
+3,Flip,M,39,Fall Guy,5,Actionn/Comedy,100%
+4,Kevin,M,30,Fall Guy,5,Actionn/Comedy,100%
+5,Angelica,F,45,Fall Guy,4,Actionn/Comedy,80%
+6,Rotten Tomatoes,W,,Fall Guy,4.1,Actionn/Comedy,82%
+1,Klaudia,F,25,Inside Out 2,4,Family/Comedy,80%
+2,Sylwia,F,38,Inside Out 2,5,Family/Comedy,100%
+3,Flip,M,39,Inside Out 2,2,Family/Comedy,40%
+4,Kevin,M,30,Inside Out 2,,Family/Comedy,0%
+5,Angelica,F,45,Inside Out 2,4,Family/Comedy,80%
+6,Rotten Tomatoes,W,,Inside Out 2,4.55,Family/Comedy,91%

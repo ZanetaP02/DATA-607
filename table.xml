@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>File_Formats_Assignments</Title>
+  <LastAuthor>Zaneta Paulusova</LastAuthor>
+  <Created>2024-10-21T01:35:55Z</Created>
+  <LastSaved>2024-11-07T01:21:33Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created dt:dt="date">2024-08-11</Created>
+  <Creator dt:dt="string">Pages</Creator>
+  <LastSaved dt:dt="date">2024-10-21</LastSaved>
+  <Producer dt:dt="string">macOS Version 14.1.1 (Build 23B81) Quartz PDFContext</Producer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Startup>/Users/zanetapaulusova/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Startup.localized/Excel/SaveAsAdobePDF.xlam</Startup>
+   <SheetName>Sheet1</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+  </SupBook>
+  <WindowHeight>15780</WindowHeight>
+  <WindowWidth>18960</WindowWidth>
+  <WindowTopX>5200</WindowTopX>
+  <WindowTopY>1460</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:CharSet="204" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s15">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Helvetica Neue" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table 1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s15" ss:DefaultColumnWidth="45"
+   ss:DefaultRowHeight="13">
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="630"/>
+   <Row ss:AutoFitHeight="0" ss:Height="409">
+    <Cell ss:MergeDown="1" ss:StyleID="s64"><Data ss:Type="String">Category,Item Name,Item ID,Brand,Price,Variation ID,Variation Details Electronics,Smartphone,101,TechBrand,699.99,101-A,Color: Black, Storage: 64GB Electronics,Smartphone,101,TechBrand,699.99,101-B,Color: White, Storage: 128GB Electronics,Laptop,102,CompuBrand,1099.99,102-A,Color: Silver, Storage: 256GB Electronics,Laptop,102,CompuBrand,1099.99,102-B,Color: Space Gray, Storage: 512GB Home Appliances,Refrigerator,201,HomeCool,899.99,201-A,Color: Stainless Steel, Capacity: 20 cu ft&#10;Home Appliances,Refrigerator,201,HomeCool,899.99,201-B,Color: White, Capacity: 18 cu ft Home Appliances,Washing Machine,202,CleanTech,499.99,202-A,Type: Front Load, Capacity:&#10;4.5 cu ft&#10;Home Appliances,Washing Machine,202,CleanTech,499.99,202-B,Type: Top Load, Capacity:&#10;5.0 cu ft&#10;Clothing,T-Shirt,301,FashionCo,19.99,301-A,Color: Blue, Size: S Clothing,T-Shirt,301,FashionCo,19.99,301-B,Color: Red, Size: M Clothing,T-Shirt,301,FashionCo,19.99,301-C,Color: Green, Size: L Clothing,Jeans,302,DenimWorks,49.99,302-A,Color: Dark Blue, Size: 32 Clothing,Jeans,302,DenimWorks,49.99,302-B,Color: Light Blue, Size: 34&#10;Books,Fiction Novel,401,-,14.99,401-A,Format: Hardcover, Language: English Books,Fiction Novel,401,-,14.99,401-B,Format: Paperback, Language: Spanish Books,Non-Fiction Guide,402,-,24.99,402-A,Format: eBook, Language: English Books,Non-Fiction Guide,402,-,24.99,402-B,Format: Paperback, Language: French Sports Equipment,Basketball,501,SportsGear,29.99,501-A,Size: Size 7, Color: Orange&#10;Sports Equipment,Tennis Racket,502,RacketPro,89.99,502-A,Material: Graphite, Color: Black Sports Equipment,Tennis Racket,502,RacketPro,89.99,502-B,Material: Aluminum, Color: Silver&#10;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="118.75"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R2C1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

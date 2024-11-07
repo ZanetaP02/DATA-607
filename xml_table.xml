@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Zaneta Paulusova</Author>
+  <LastAuthor>Zaneta Paulusova</LastAuthor>
+  <Created>2024-11-07T13:41:40Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16800</WindowHeight>
+  <WindowWidth>28040</WindowWidth>
+  <WindowTopX>380</WindowTopX>
+  <WindowTopY>500</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Desktop">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="23" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Row>
+    <Cell><Data ss:Type="String">,&quot;category&quot;,&quot;Item_Name&quot;,&quot;Item_ID&quot;,&quot;Brand&quot;,&quot;Price&quot;,&quot;Variation_ID&quot;,&quot;Variation_Details&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1,&quot;Electronics&quot;,&quot;Smartphone&quot;,101,&quot;TechBrand&quot;,699.99,&quot;101-A&quot;,&quot;Color: Black, Storage: 64GB&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2,&quot;Electronics&quot;,&quot;Smartphone&quot;,101,&quot;TechBrand&quot;,699.99,&quot;101-B&quot;,&quot;Color: White, Storage: 128GB&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3,&quot;Electronics&quot;,&quot;Laptop&quot;,102,&quot;CompuBrand&quot;,1099.99,&quot;102-A&quot;,&quot;Color: Silver, Storage: 256GB&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4,&quot;Electronics&quot;,&quot;Laptop&quot;,102,&quot;CompuBrand&quot;,1099.99,&quot;102-B&quot;,&quot;Color: Space Gray,Storage: 512GB&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5,&quot;Home Appliances&quot;,&quot;Refrigerator&quot;,201,&quot;HomeCool&quot;,899.99,&quot;201-A&quot;,&quot;Color: Stainless SteelSteel), Capacity: 20 cu ft&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6,&quot;Home Appliances&quot;,&quot;Refrigerator&quot;,201,&quot;HomeCool&quot;,899.99,&quot;201-B&quot;,&quot;Color: White, Capacity: 18 cu ft&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7,&quot;Home Appliances&quot;,&quot;Washing Machine&quot;,202,&quot;CleanTech&quot;,499.99,&quot;202-A&quot;,&quot;Type: Front LoadCapacity:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4.5 cu ft&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8,&quot;Home Appliances&quot;,&quot;Washing Machine&quot;,202,&quot;CleanTech&quot;,499.99,&quot;202-B&quot;,&quot;Type: Top Load, Capacity:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5.0 cu ft&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9,&quot;Clothing&quot;,&quot;T-shirt&quot;,301,&quot;FashionCo&quot;,19.99,&quot;301-A&quot;,&quot;Color: Blue, Size: S&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10,&quot;Clothing&quot;,&quot;T-shirt&quot;,301,&quot;FashionCo&quot;,19.99,&quot;301-B&quot;,&quot;Color: Red, Size: M&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">11,&quot;Clothing&quot;,&quot;T-shirt&quot;,301,&quot;FashionCo&quot;,19.99,&quot;302-A&quot;,&quot;Color: Green, Size: L&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">12,&quot;Clothing&quot;,&quot;T-shirt&quot;,302,&quot;DenimWorks&quot;,49.99,&quot;302-B&quot;,&quot;Color: Dark BlueSize: 32&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">13,&quot;Clothing&quot;,&quot;Jeans&quot;,302,&quot;DenimWorks&quot;,49.99,&quot;401-A&quot;,&quot;Color: Light BlueSize: 34&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">14,&quot;Books&quot;,&quot;Jeans&quot;,401,NA,14.99,&quot;401-B&quot;,&quot;Format: Hardcover,Language: English&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">15,&quot;Books&quot;,&quot;Fiction Novel&quot;,401,NA,14.99,&quot;402-A&quot;,&quot;Format: Paperback, Language: Spanish&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">16,&quot;Books&quot;,&quot;Fiction Novel&quot;,402,NA,24.99,&quot;402-B&quot;,&quot;Format: eBook, Language: English&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">17,&quot;Books&quot;,&quot;Non-Fiction Guide&quot;,402,NA,24.99,&quot;501-A&quot;,&quot;Format: Paperback, Language: French&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">18,&quot;Sports Equipment&quot;,&quot;Non-Fiction Guide&quot;,501,&quot;SportsGear&quot;,29.99,&quot;501-B&quot;,&quot;Size: Size 7, Color: Orange&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">19,&quot;Sports Equipment&quot;,&quot;Tennis Racket&quot;,502,&quot;RacketPro&quot;,89.99,&quot;502-A&quot;,&quot;Material: Graphite, Color: Black&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20,&quot;Sports Equipment&quot;,&quot;Tennis Racket&quot;,502,&quot;RacketPro&quot;,89.99,&quot;502-B&quot;,&quot;Material: Aluminum, Color: Silver, Color: Silver&quot;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

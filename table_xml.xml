@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
  <root>
-     <0>
+     <root>
          <category>Electronics</category>
          <Item_Name>Smartphone</Item_Name>
          <Item_ID>101</Item_ID>
@@ -8,8 +8,8 @@
          <Price>699.99</Price>
          <Variation_ID>101-A</Variation_ID>
          <Variation_Details>Color: Black, Storage: 64GB</Variation_Details>
-     </0>
-     <1>
+     </root>
+     <root>
          <category>Electronics</category>
          <Item_Name>Smartphone</Item_Name>
          <Item_ID>101</Item_ID>
@@ -17,8 +17,8 @@
          <Price>699.99</Price>
          <Variation_ID>101-B</Variation_ID>
          <Variation_Details>Color: White, Storage: 128GB</Variation_Details>
-     </1>
-     <2>
+     </root>
+     <root>
          <category>Electronics</category>
          <Item_Name>Laptop</Item_Name>
          <Item_ID>102</Item_ID>
@@ -26,8 +26,8 @@
          <Price>1099.99</Price>
          <Variation_ID>102-A</Variation_ID>
          <Variation_Details>Color: Silver, Storage: 256GB</Variation_Details>
-     </2>
-     <3>
+     </root>
+     <root>
          <category>Electronics</category>
          <Item_Name>Laptop</Item_Name>
          <Item_ID>102</Item_ID>
@@ -35,8 +35,8 @@
          <Price>1099.99</Price>
          <Variation_ID>102-B</Variation_ID>
          <Variation_Details>Color: Space Gray,Storage: 512GB</Variation_Details>
-     </3>
-     <4>
+     </root>
+     <root>
          <category>Home Appliances</category>
          <Item_Name>Refrigerator</Item_Name>
          <Item_ID>201</Item_ID>
@@ -44,8 +44,8 @@
          <Price>899.99</Price>
          <Variation_ID>201-A</Variation_ID>
          <Variation_Details>Color: Stainless SteelSteel), Capacity: 20 cu ft</Variation_Details>
-     </4>
-     <5>
+     </root>
+     <root>
          <category>Home Appliances</category>
          <Item_Name>Refrigerator</Item_Name>
          <Item_ID>201</Item_ID>
@@ -53,8 +53,8 @@
          <Price>899.99</Price>
          <Variation_ID>201-B</Variation_ID>
          <Variation_Details>Color: White, Capacity: 18 cu ft</Variation_Details>
-     </5>
-     <6>
+     </root>
+     <root>
          <category>Home Appliances</category>
          <Item_Name>Washing Machine</Item_Name>
          <Item_ID>202</Item_ID>
@@ -64,8 +64,8 @@
          <Variation_Details>
              Type: Front LoadCapacity:
          4.5 cu ft</Variation_Details>
-     </6>
-     <7>
+     </root>
+     <root>
          <category>Home Appliances</category>
          <Item_Name>Washing Machine</Item_Name>
          <Item_ID>202</Item_ID>
@@ -75,8 +75,8 @@
          <Variation_Details>
              Type: Top Load, Capacity:
          5.0 cu ft</Variation_Details>
-     </7>
-     <8>
+     </root>
+     <root>
          <category>Clothing</category>
          <Item_Name>T-shirt</Item_Name>
          <Item_ID>301</Item_ID>
@@ -84,8 +84,8 @@
          <Price>19.99</Price>
          <Variation_ID>301-A</Variation_ID>
          <Variation_Details>Color: Blue, Size: S</Variation_Details>
-     </8>
-     <9>
+     </root>
+     <root>
          <category>Clothing</category>
          <Item_Name>T-shirt</Item_Name>
          <Item_ID>301</Item_ID>
@@ -93,8 +93,8 @@
          <Price>19.99</Price>
          <Variation_ID>301-B</Variation_ID>
          <Variation_Details>Color: Red, Size: M</Variation_Details>
-     </9>
-     <10>
+     </root>
+     <root>
          <category>Clothing</category>
          <Item_Name>T-shirt</Item_Name>
          <Item_ID>301</Item_ID>
@@ -102,8 +102,8 @@
          <Price>19.99</Price>
          <Variation_ID>302-A</Variation_ID>
          <Variation_Details>Color: Green, Size: L</Variation_Details>
-     </10>
-     <11>
+     </root>
+     <root>
          <category>Clothing</category>
          <Item_Name>T-shirt</Item_Name>
          <Item_ID>302</Item_ID>
@@ -111,8 +111,8 @@
          <Price>49.99</Price>
          <Variation_ID>302-B</Variation_ID>
          <Variation_Details>Color: Dark BlueSize: 32</Variation_Details>
-     </11>
-     <12>
+     </root>
+     <root>
          <category>Clothing</category>
          <Item_Name>Jeans</Item_Name>
          <Item_ID>302</Item_ID>
@@ -120,7 +120,7 @@
          <Price>49.99</Price>
          <Variation_ID>401-A</Variation_ID>
          <Variation_Details>Color: Light BlueSize: 34</Variation_Details>
-     </12>
+     </root>
      <13>
          <category>Books</category>
          <Item_Name>Jeans</Item_Name>
@@ -128,32 +128,32 @@
          <Price>14.99</Price>
          <Variation_ID>401-B</Variation_ID>
          <Variation_Details>Format: Hardcover,Language: English</Variation_Details>
-     </13>
-     <14>
+     </root>
+     <root>
          <category>Books</category>
          <Item_Name>Fiction Novel</Item_Name>
          <Item_ID>401</Item_ID>
          <Price>14.99</Price>
          <Variation_ID>402-A</Variation_ID>
          <Variation_Details>Format: Paperback, Language: Spanish</Variation_Details>
-     </14>
-     <15>
+     </root>
+     <root>
          <category>Books</category>
          <Item_Name>Fiction Novel</Item_Name>
          <Item_ID>402</Item_ID>
          <Price>24.99</Price>
          <Variation_ID>402-B</Variation_ID>
          <Variation_Details>Format: eBook, Language: English</Variation_Details>
-     </15>
-     <16>
+     </root>
+     <root>
          <category>Books</category>
          <Item_Name>Non-Fiction Guide</Item_Name>
          <Item_ID>402</Item_ID>
          <Price>24.99</Price>
          <Variation_ID>501-A</Variation_ID>
          <Variation_Details>Format: Paperback, Language: French</Variation_Details>
-     </16>
-     <17>
+     </root>
+     <root>
          <category>Sports Equipment</category>
          <Item_Name>Non-Fiction Guide</Item_Name>
          <Item_ID>501</Item_ID>
@@ -161,8 +161,8 @@
          <Price>29.99</Price>
          <Variation_ID>501-B</Variation_ID>
          <Variation_Details>Size: Size 7, Color: Orange</Variation_Details>
-     </17>
-     <18>
+     </root>
+     <root>
          <category>Sports Equipment</category>
          <Item_Name>Tennis Racket</Item_Name>
          <Item_ID>502</Item_ID>
@@ -170,8 +170,8 @@
          <Price>89.99</Price>
          <Variation_ID>502-A</Variation_ID>
          <Variation_Details>Material: Graphite, Color: Black</Variation_Details>
-     </18>
-     <19>
+     </root>
+     <root>
          <category>Sports Equipment</category>
          <Item_Name>Tennis Racket</Item_Name>
          <Item_ID>502</Item_ID>
@@ -179,5 +179,5 @@
          <Price>89.99</Price>
          <Variation_ID>502-B</Variation_ID>
          <Variation_Details>Material: Aluminum, Color: Silver, Color: Silver</Variation_Details>
-     </19>
+     </root>
  </root>

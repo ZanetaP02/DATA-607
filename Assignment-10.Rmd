@@ -1,0 +1,329 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+---
+title: "Week 10 Assignment - extra credit"
+author: "Zaneta Paulusova"
+output:
+  pdf_document: default
+  ---
+  Instructions
+In Text Mining with R, Chapter 2 looks at Sentiment Analysis.  In this assignment, you should start by getting the primary example code from chapter 2 working in an R Markdown document.  You should provide a citation to this base code.  You’re then asked to extend the code in two ways:
+
+Work with a different corpus of your choosing, and
+Incorporate at least one additional sentiment lexicon (possibly from another R package that you’ve found through research).
+
+As usual, please submit links to both an .Rmd file posted in your GitHub repository and to your code on rpubs.com.  You make work on a small team on this assignment.
+
+The base code for this assignemnet is taken directy from chapter 2 of Text Mining with R: A Tidy Approach https://www.tidytextmining.com/sentiment.html
+
+```{r}
+library(tidytext)
+library(janeaustenr)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(ggplot2)
+library(wordcloud)
+```
+
+
+All formulas in chapter 2
+```{r}
+get_sentiments("afinn")
+```
+
+```{r}
+get_sentiments("bing")
+```
+
+```{r}
+get_sentiments("nrc")
+```
+
+```{r}
+tidy_books <- austen_books() %>%
+  group_by(book) %>%
+  mutate(linenumber = row_number(),
+         chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]", ignore_case = TRUE)))) %>%
+  ungroup() %>%
+  unnest_tokens(word, text)
+```
+
+```{r}
+nrc_joy <- get_sentiments("nrc") %>% 
+  filter(sentiment == "joy")
+
+tidy_books %>%
+  filter(book == "Emma") %>%
+  inner_join(nrc_joy) %>%
+  count(word, sort = TRUE)
+```
+```{r}
+library(tidyr)
+
+jane_austen_sentiment <- tidy_books %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(book, index = linenumber %/% 80, sentiment) %>%
+  pivot_wider(names_from = sentiment, values_from = n, values_fill = 0) %>% 
+  mutate(sentiment = positive - negative)
+```
+```{r}
+library(ggplot2)
+
+ggplot(jane_austen_sentiment, aes(index, sentiment, fill = book)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~book, ncol = 2, scales = "free_x")
+```
+```{r}
+pride_prejudice <- tidy_books %>% 
+  filter(book == "Pride & Prejudice")
+pride_prejudice
+```
+```{r}
+afinn <- pride_prejudice %>% 
+  inner_join(get_sentiments("afinn")) %>% 
+  group_by(index = linenumber %/% 80) %>% 
+  summarise(sentiment = sum(value)) %>% 
+  mutate(method = "AFINN")
+
+bing_and_nrc <- bind_rows(
+  pride_prejudice %>% 
+    inner_join(get_sentiments("bing")) %>%
+    mutate(method = "Bing et al."),
+  pride_prejudice %>% 
+    inner_join(get_sentiments("nrc") %>% 
+                 filter(sentiment %in% c("positive", 
+                                         "negative"))
+    ) %>%
+    mutate(method = "NRC")) %>%
+  count(method, index = linenumber %/% 80, sentiment) %>%
+  pivot_wider(names_from = sentiment,
+              values_from = n,
+              values_fill = 0) %>% 
+  mutate(sentiment = positive - negative)
+```
+```{r}
+bind_rows(afinn, 
+          bing_and_nrc) %>%
+  ggplot(aes(index, sentiment, fill = method)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~method, ncol = 1, scales = "free_y")
+```
+```{r}
+get_sentiments("nrc") %>% 
+  filter(sentiment %in% c("positive", "negative")) %>% 
+  count(sentiment)
+```
+```{r}
+get_sentiments("bing") %>% 
+  count(sentiment)
+```
+```{r}
+bing_word_counts <- tidy_books %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  ungroup()
+
+bing_word_counts
+```
+```{r}
+bing_word_counts %>%
+  group_by(sentiment) %>%
+  slice_max(n, n = 10) %>% 
+  ungroup() %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(n, word, fill = sentiment)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~sentiment, scales = "free_y") +
+  labs(x = "Contribution to sentiment",
+       y = NULL)
+```
+```{r}
+custom_stop_words <- bind_rows(tibble(word = c("miss"),  
+                                      lexicon = c("custom")), 
+                               stop_words)
+
+custom_stop_words
+```
+```{r}
+library(wordcloud)
+```
+
+```{r}
+tidy_books %>%
+  anti_join(stop_words) %>%
+  count(word) %>%
+  with(wordcloud(word, n, max.words = 100))
+```
+```{r}
+library(reshape2)
+```
+```{r}
+tidy_books %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+  comparison.cloud(colors = c("gray20", "gray80"),
+                   max.words = 100)
+```
+```{r}
+p_and_p_sentences <- tibble(text = prideprejudice) %>% 
+  unnest_tokens(sentence, text, token = "sentences")
+```
+
+```{r}
+p_and_p_sentences$sentence[2]
+```
+
+
+```{r}
+austen_chapters <- austen_books() %>%
+  group_by(book) %>%
+  unnest_tokens(chapter, text, token = "regex", 
+                pattern = "Chapter|CHAPTER [\\dIVXLC]") %>%
+  ungroup()
+
+austen_chapters %>% 
+  group_by(book) %>% 
+  summarise(chapters = n())
+```
+```{r}
+bingnegative <- get_sentiments("bing") %>% 
+  filter(sentiment == "negative")
+
+wordcounts <- tidy_books %>%
+  group_by(book, chapter) %>%
+  summarize(words = n())
+
+tidy_books %>%
+  semi_join(bingnegative) %>%
+  group_by(book, chapter) %>%
+  summarize(negativewords = n()) %>%
+  left_join(wordcounts, by = c("book", "chapter")) %>%
+  mutate(ratio = negativewords/words) %>%
+  filter(chapter != 0) %>%
+  slice_max(ratio, n = 1) %>% 
+  ungroup()
+```
+
+###Analysis
+
+For this analysis, I will analyze Romeo and Juliet by William Shakespeare, which can be found in the package "Gutenberg."
+
+### Package & Library
+```{r}
+install.packages('gutenbergr')
+library(gutenbergr)
+```
+
+
+```{r}
+gutenberg_metadata %>% 
+    filter(author == "Shakespeare, William",
+           language == "en",
+           title == "Romeo and Juliet",
+           !str_detect(rights, "Copyright"))
+```
+
+
+
+###Download Book
+```{r}
+romeo_and_juliet <- gutenberg_download(2261)
+romeo_and_juliet
+```
+
+###Convert Data to Tidy
+```{r}
+tidy_r_j <- romeo_and_juliet %>%
+  unnest_tokens(word, text)
+tidy_r_j
+```
+###Removing Stop Words
+```{r}
+data(stop_words)
+tidy_r_j <- tidy_r_j %>%
+  anti_join(stop_words)
+```
+
+
+###Counting Number of Words
+```{r}
+tidy_r_j %>%
+  count(word, sort = TRUE)
+```
+
+###Visualizing the Word Frequency
+```{r}
+tidy_r_j %>%
+  count(word, sort = TRUE) %>%
+  top_n(20, n) %>%
+  ggplot(aes(x = fct_reorder(word, n), y = n, fill = word)) +
+  geom_col(show.legend = FALSE) +
+  scale_fill_viridis_d(option = "thou") +
+  coord_flip() +
+  xlab(NULL) +
+  labs(title = "Romeo and Juliet - Word Frequency") +
+  theme_minimal()
+```
+The most used word is 'thou' for Romeo and Juliet.
+
+
+###Sentiment Analysis using nrc
+```{r}
+tidy_r_j <- romeo_and_juliet %>%
+  mutate(gutenberg_id = row_number(),
+         chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]",ignore_case = TRUE)))) %>%
+  ungroup() %>%
+  unnest_tokens(word, text)
+
+sentiment_romeo_and_juliet <- get_sentiments("nrc")
+sentiment_romeo_and_juliet
+```
+
+```{r}
+nrc_anger <- get_sentiments("nrc") %>%
+  filter(sentiment == "anger")
+nrc_anger
+```
+
+```{r}
+tidy_r_j %>%
+inner_join(nrc_anger) %>%
+count(word, sort = TRUE)
+```
+
+###Sentiment Analysis using loughran
+```{r}
+get_sentiments("loughran")
+```
+
+```{r}
+loughran__rj <- tidy_r_j %>%
+inner_join(get_sentiments("loughran")) %>%
+count(word, sentiment, sort = TRUE) %>%
+ungroup()
+loughran__r_j
+```
+
+```{r}
+lexi__r_j  %>%
+group_by(sentiment) %>%
+top_n(10) %>%
+ungroup() %>%
+mutate(word = reorder(word, n)) %>%
+ggplot(aes(word, n, fill = sentiment)) +
+geom_col(show.legend = FALSE) +facet_wrap(~sentiment, scales = "free_y") + labs(y = "Contribution to Sentiment",
+     x = NULL)+
+coord_flip()
+```
+
+```{r}
+tidy_r_j %>%
+  anti_join(stop_words) %>%
+  count(word) %>%
+  with(wordcloud(word, n, max.words = 100))
+```

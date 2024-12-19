@@ -2,7 +2,6 @@
 title: "Week 10 Assignment - extra credit"
 author: "Zaneta Paulusova"
 output:
-  word_document: default
   html_document: default
   ---
   Instructions
@@ -302,11 +301,11 @@ loughran__rj <- tidy_r_j %>%
 inner_join(get_sentiments("loughran")) %>%
 count(word, sentiment, sort = TRUE) %>%
 ungroup()
-loughran__r_j
+loughran__rj
 ```
 
 ```{r}
-lexi__r_j  %>%
+loughran__rj %>%
 group_by(sentiment) %>%
 top_n(10) %>%
 ungroup() %>%

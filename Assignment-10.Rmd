@@ -1,13 +1,9 @@
 ---
-output:
-  word_document: default
-  html_document: default
----
----
 title: "Week 10 Assignment - extra credit"
 author: "Zaneta Paulusova"
 output:
-  pdf_document: default
+  word_document: default
+  html_document: default
   ---
   Instructions
 In Text Mining with R, Chapter 2 looks at Sentiment Analysis.  In this assignment, you should start by getting the primary example code from chapter 2 working in an R Markdown document.  You should provide a citation to this base code.  You’re then asked to extend the code in two ways:
